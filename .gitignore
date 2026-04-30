@@ -1,0 +1,26 @@
+# Real environment file with live keys
+.env
+.env.local
+.env.*.local
+
+# In-flight audits and competitor scrapes (per-project, not for the public repo)
+output/*/
+!output/_sections-library.md
+
+# OS / editor noise
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python / Node artefacts (in case anyone forks and adds tooling)
+__pycache__/
+*.pyc
+node_modules/
+.pnpm-debug.log*
+
+# Local research and notes that should not be public
+Research/
+notes/
+.audit/
